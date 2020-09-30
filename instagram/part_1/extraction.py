@@ -49,5 +49,3 @@ while 1:
     has_next_page = r['data']['shortcode_media']['edge_liked_by']['page_info']['end_cursor']
     if has_next_page == False: break
     time.sleep(2)
-    
-    
